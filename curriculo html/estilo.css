@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Montserrat", sans-serif;
+    /*background-color: #ecf0f1;*/
+    /*cor de fundo*/
+    /* background-image: linear-gradient(to left,  rgb(228, 228, 245), #34448f); */
+    background-image: url(https://images.unsplash.com/photo-1497864979123-ef3595423b92?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    color: #34495e;/*cor da letra*/
+   
+    
+}
+
+section {
+    text-align: center;         /*centralizar o texto*/
+    background-color: white; /* cor de fundo*/
+    width: 500px;              /* largura */
+    margin: auto;              /* centralizar conteúdo*/
+    border: 1px solid gray;  /*colocar borda*/
+    border-radius: 15px;       /* arredondar bordas*/
+    margin-bottom: 20px;       /* margem de baixo*/
+    box-shadow: 2px 2px 10px black;    /*sombra*/ 
+}
+
+/* quando passo o mouse na sessão */
+section:hover{
+    background-color: gainsboro;
+}
+/*personalizar lista*/
+ul{ 
+  
+    list-style: none;    /* tira ponto da lista*/
+    text-align: left;    /*alinha a lista para a esquerda*/
+}
+
+/*referenciando a classe links do HTML*/
+.links{
+    color: #34495e; /*cor da letra*/
+    text-decoration: none;
+}
+.links:hover{
+    color: blue;
+    font-size: 18px;
+}
+.menu{
+    background-color: rgba(0, 0, 0, 0.838);
+    
+}
+.menu ul li{
+    /*organiza em linha*/
+    display: inline-block;
+    /*espaçamento interno*/
+    padding: 10px;
+    
+}
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+.menu ul{
+    text-align: center;
+    margin-top: 0;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.links i {
+    font-size: 30px;
+    color: rgb(93, 0, 255);
+   
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
