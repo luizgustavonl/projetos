@@ -15,9 +15,9 @@ body {
     background-image: url(https://images.unsplash.com/photo-1497864979123-ef3595423b92?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
     color: #34495e;/*cor da letra*/
-   
-    
+
 }
+
 
 section {
     text-align: center;         /*centralizar o texto*/
@@ -36,7 +36,6 @@ section:hover{
 }
 /*personalizar lista*/
 ul{ 
-  
     list-style: none;    /* tira ponto da lista*/
     text-align: left;    /*alinha a lista para a esquerda*/
 }
@@ -79,8 +78,6 @@ header{
 .links i {
     font-size: 30px;
     color: rgb(93, 0, 255);
-   
-
 }
 
 html{
