@@ -83,3 +83,54 @@ header{
 html{
     scroll-behavior: smooth;
 }
+
+
+#logo{
+    width: 20px;
+    margin-bottom: -5px;
+}
+
+footer{
+    background-color: #34495e;  /*cor de fundo*/
+    color: white;               /*cor da letra*/
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    border-top: 1px solid blue;
+}
+
+.celular{
+    color:white;
+    display: none;
+}
+
+/* adaptação para o celular - reponsividade*/
+@media (max-width: 830px){
+    .celular{
+        display: block;
+        padding-top: 10px;
+        padding-left: 10px;
+        font-size: 30px;
+    }
+    .opcoes{
+        display: none; /*desaparece lista do menu */
+    }
+
+    section{
+        font-size: 12px;
+        max-width: 400px;
+    }
+
+    iframe{
+        width: 250px;
+    }
+    .menu{
+        height: 70px;
+    }
+    /*classe mostrar menu, faz aparecer a lista de menus */
+    .mostrarMenu{
+        display: grid;
+        background-color: black;
+    }
+}
+
