@@ -57,3 +57,10 @@
 }
 
 
+.tabela{
+    border: 1px solid red !important;
+}
+
+.card{
+    margin: 5px;
+}
